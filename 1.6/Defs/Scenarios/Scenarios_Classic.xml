@@ -13,6 +13,18 @@ Note: Since you start alone with random superpowers and weaknesses, this is a di
         <def>PlayerFaction</def>
         <factionDef>VFEA_NewVault</factionDef>
       </playerFaction>
+      <surfaceLayer>
+        <def>SurfaceLayerFixed</def>
+        <tag>Surface</tag>
+        <layer>Surface</layer>
+        <settingsDef>Surface</settingsDef>
+        <hide>true</hide>
+        <connections>
+          <Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+            <zoomMode>ZoomOut</zoomMode>
+          </Orbit>
+        </connections>
+      </surfaceLayer>
       <parts>
         <li Class="ScenPart_GameStartDialog">
           <def>GameStartDialog</def>
@@ -70,6 +82,18 @@ Note: Since you start alone with random superpowers and weaknesses, this is a di
         <def>PlayerFaction</def>
         <factionDef>PlayerTribe</factionDef>
       </playerFaction>
+      <surfaceLayer>
+        <def>SurfaceLayerFixed</def>
+        <tag>Surface</tag>
+        <layer>Surface</layer>
+        <settingsDef>Surface</settingsDef>
+        <hide>true</hide>
+        <connections>
+          <Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+            <zoomMode>ZoomOut</zoomMode>
+          </Orbit>
+        </connections>
+      </surfaceLayer>
       <parts>
 
         <!-- Config pages -->

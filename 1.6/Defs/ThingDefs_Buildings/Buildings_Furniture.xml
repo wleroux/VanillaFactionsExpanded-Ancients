@@ -84,7 +84,7 @@
 	<uiIconPath>Things/Building/Furniture/VFEWallLamp/VFEWallLamp_MenuIcon</uiIconPath>
 	<rotatable>true</rotatable>
     <comps>
-      <li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
+      <li Class="VEF.Buildings.CompProperties_GlowerExtended">
         <spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
         <colorOptions>
             <li>
@@ -95,7 +95,7 @@
             </li>
         </colorOptions>
       </li>
-	  <li Class="VanillaFurnitureExpanded.CompProperties_MountableOnWall"/>
+	  <li Class="VEF.Buildings.CompProperties_MountableOnWall"/>
     </comps>
     <building>
 	  <isInert>true</isInert>
@@ -104,7 +104,7 @@
     </building>
 	<altitudeLayer>BuildingOnTop</altitudeLayer>
     <placeWorkers>
-	  <li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
+	  <li>VEF.Buildings.PlaceWorker_OnWall</li>
     </placeWorkers>
 	<defaultPlacingRot>South</defaultPlacingRot>
   </ThingDef>

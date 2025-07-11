@@ -288,7 +288,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <modExtensions>
-    <li Class="RecipeInheritance.ThingDefExtension">
+    <li Class="VEF.Buildings.RecipeInheritanceExtension">
         <inheritRecipesFrom>
           <li>ElectricStove</li>
 		  <li>TableButcher</li>
@@ -364,7 +364,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <modExtensions>
-    <li Class="RecipeInheritance.ThingDefExtension">
+    <li Class="VEF.Buildings.RecipeInheritanceExtension">
         <inheritRecipesFrom>
           <li>TableMachining</li>
 		  <li>ElectricSmithy</li>
